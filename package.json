@@ -1,0 +1,26 @@
+{
+  "name": "clean-architecture-demo",
+  "version": "1.0.0",
+  "description": "A Clean Architecture example in TypeScript with Express",
+  "main": "dist/app/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/app/index.ts",
+    "build": "tsc",
+    "serve": "node dist/app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
+}
